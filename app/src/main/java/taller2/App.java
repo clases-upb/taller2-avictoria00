@@ -21,6 +21,17 @@ public class App {
 
     public static void main(String[] args) {
         try {
+            
+            System.out.println(Calcular_saldo(2000000, 1000000, 500000)); // erjercico 1
+            System.out.println(Calcular_tip(100));  // erjercico 2
+            System.out.println(Obtener_puntos(3, 2, 1));  // erjercico 3
+            System.out.println(Calcular_definitiva(4, 4, 4, 4, 4, 0.2f, 0.2f, 0.2f, 0.2f, 0.2f));  // erjercico 4
+            System.out.println(Calcular_para_ganar(3, 3, 3, 3, 0.2f, 0.2f, 0.2f, 0.2f, 0.2f));  // erjercico 5
+            System.out.println(Calcular_salario(40, 10, 5, 20000));  // erjercico 6
+            System.out.println(Calcular_area_triangulo(10, 5));  // erjercico 7
+            System.out.println(Calcular_perimetro_cuadrado(5));  // erjercico 8
+            System.out.println(Calcular_volumen_cilindro(5, 10));  // erjercico 9
+            System.out.println(Calcular_area_circulo(5));  // erjercico 10
     
         } 
         
